@@ -30,6 +30,6 @@ class Player():
 
         self.update()
 
-        def update(self):
-            self.rect = (self.x, self.y, self.width, self.height)
+    def update(self):
+        self.rect = (self.x, self.y, self.width, self.height)
 

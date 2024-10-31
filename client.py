@@ -17,7 +17,8 @@ def redrawWindow(win, player, player2):
 def main():
     run = True
     n = Network()
-    p = n.getPos()
+    p = n.getP()
+    print(p)
     clock = pygame.time.Clock()
 
     while run:
